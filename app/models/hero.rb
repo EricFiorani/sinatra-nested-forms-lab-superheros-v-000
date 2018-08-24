@@ -1,7 +1,7 @@
 class Hero
   attr_reader :name, :power, :bio
 
-  @@heros = []
+  @@hero = []
 
   def initialize(params)
     @name = params[:name]
@@ -11,6 +11,6 @@ class Hero
   end
 
   def self.all
-    @@heros
+    @@hero
   end
 end
