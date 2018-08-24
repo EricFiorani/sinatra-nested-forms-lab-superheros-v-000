@@ -5,4 +5,6 @@ class Hero
 
   def initialize(params)
     @name = params[:name]
+    @power = params[:power]
+    @name = params[:name]
 end
